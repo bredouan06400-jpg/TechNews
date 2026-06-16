@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWatch Pro | Veille Informatique</title>
+    <meta name="description" content="Veille hebdomadaire TechWatch Pro : hardware, sécurité, IA et tendances émergentes pour les décideurs IT.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="header">
+            <div class="header__brand">
+                <span class="brand-mark">TW</span>
+                <div>
+                    <p class="brand-label">TechWatch Pro</p>
+                    <p class="brand-slogan">Veille informatique hebdomadaire</p>
+                </div>
+            </div>
+            <nav class="nav" aria-label="Navigation principale">
+                <a href="#featured">À la une</a>
+                <a href="#gpu">GPU</a>
+                <a href="#cpu">CPU</a>
+                <a href="#storage">Stockage</a>
+                <a href="#safety">Sécurité</a>
+            </nav>
+            <button class="theme-toggle" type="button" aria-label="Changer le thème">Mode clair</button>
+        </header>
+
+        <main class="main-content">
+            <section class="hero-card">
+                <div class="hero-card__info">
+                    <p class="eyebrow">Rapport hebdomadaire</p>
+                    <h1>Veille Informatique — Semaine 24 (17 juin — 23 juin 2026)</h1>
+                    <p class="hero-copy">Analyse premium des tendances hardware, sécurité, IA et infrastructures. Design évolutif pensé pour les équipes tech et les responsables innovation.</p>
+                    <div class="hero-card__media">
+                        <img src="./images/Copilot_20260616_234305.png" alt="Illustration TechWatch">
+                    </div>
+                </div>
+                <div class="hero-card__stats">
+                    <div class="stat-card">
+                        <span>4</span>
+                        <p>Catégories clés</p>
+                    </div>
+                    <div class="stat-card">
+                        <span>8</span>
+                        <p>Insights profonds</p>
+                    </div>
+                    <div class="stat-card">
+                        <span>95%</span>
+                        <p>Sources vérifiées</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="featured" class="section section--featured">
+                <div class="section__header">
+                    <p class="section__eyebrow">Focus stratégique</p>
+                    <h2>À la une : Tendances critiques</h2>
+                </div>
+                <div class="grid grid--3">
+                    <article class="card card--highlight">
+                        <span class="card__tag">IA</span>
+                        <h3>Architectures IA embarquées</h3>
+                        <p>Les architectures ASIC avancées intègrent désormais de puissants blocs d'IA au plus proche des capteurs, ouvrant la voie à l'autonomie des systèmes embarqués.</p>
+                        <p class="card__source">Source : AnandTech — <a href="https://www.anandtech.com" target="_blank" rel="noreferrer noopener">Lire l'analyse</a></p>
+                    </article>
+                    <article class="card">
+                        <span class="card__tag">CPU</span>
+                        <h3>Rupture Zen 5 / Zen 6</h3>
+                        <p>Des premiers tests montrent une hausse d'IPC significative tout en maîtrisant la consommation énergétique sur les architectures Ryzen de nouvelle génération.</p>
+                        <p class="card__source">Source : TechPowerUp — <a href="https://www.techpowerup.com" target="_blank" rel="noreferrer noopener">Voir le benchmark</a></p>
+                    </article>
+                    <article class="card card--alert">
+                        <span class="card__tag">Sécurité</span>
+                        <h3>Vulnérabilité DMA critique</h3>
+                        <p>[⚠️ ALERTE] Une faille matérielle affecte plusieurs générations de puces. Le déploiement de correctifs et de mitigations est prioritaire.</p>
+                        <p class="card__source">Source : The Verge — <a href="https://www.theverge.com" target="_blank" rel="noreferrer noopener">Action requise</a></p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section section--categories">
+                <div class="section__header">
+                    <p class="section__eyebrow">Analyse par secteur</p>
+                    <h2>Domaines technologiques</h2>
+                </div>
+                <div class="grid grid--2">
+                    <article id="gpu" class="category-card">
+                        <h3>GPU & Cartes graphiques</h3>
+                        <p>Benchmark haut de gamme : les dernières puces rivalisent sur le ray-tracing et l'IA dédiée, renforçant le positionnement des architectures dernière génération.</p>
+                        <p class="category-card__source">Source : Videocardz</p>
+                    </article>
+                    <article id="cpu" class="category-card">
+                        <h3>CPU & Plateformes</h3>
+                        <p>Socket AM6 et DDR6 stimulent une refonte VRM. Ce changement impose une stratégie matérielle repensée pour les systèmes hautes performances.</p>
+                        <p class="category-card__source">Source : Cowcotland</p>
+                    </article>
+                    <article id="storage" class="category-card">
+                        <h3>Stockage & Mémoire</h3>
+                        <p>PCIe Gen 6 s'invite dans les SSD externes, apportant des débits inédits pour la production 8K et les workflows professionnels exigeants.</p>
+                        <p class="category-card__source">Source : Hardwareand</p>
+                    </article>
+                    <article id="safety" class="category-card">
+                        <h3>Logiciels, drivers & sécurité</h3>
+                        <ul class="list-inline">
+                            <li>Mises à jour NVIDIA/AMD optimisent la stabilité DirectX 12 Ultimate.</li>
+                            <li>L'open-source accélère les API GPU Linux avec une nouvelle bibliothèque communautaire.</li>
+                        </ul>
+                        <p class="category-card__source">Source : Phoronix</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section section--media">
+                <div class="section__header">
+                    <p class="section__eyebrow">Support multimédia</p>
+                    <h2>Illustrations & ressources</h2>
+                </div>
+                <div class="media-grid">
+                    <article class="media-card">
+                        <div class="media-card__preview media-card__preview--image">
+                            <a href="./images/Copilot_20260616_234305.png" target="_blank" rel="noreferrer noopener">
+                                <img src="./images/Copilot_20260616_234305.png" alt="Aperçu image" style="max-height:120px; border-radius:12px;">
+                            </a>
+                        </div>
+                        <h3>Galerie illustration</h3>
+                        <p>Cliquer sur la vignette pour ouvrir l'image en taille réelle. Déposez vos visuels dans <code>./images</code>.</p>
+                    </article>
+                    <article class="media-card">
+                        <div class="media-card__preview media-card__preview--video">
+                            <video controls preload="metadata" class="media-card__player">
+                                <source src="./video/mon_video.mp4" type="video/mp4">
+                                Votre navigateur ne supporte pas la vidéo HTML5.
+                            </video>
+                        </div>
+                        <h3>Support vidéo</h3>
+                        <p>Ajoute un fichier <code>MP4</code> dans <code>./video</code> pour le lire directement sur la page.</p>
+                        <p class="media-card__hint">Exemple de nom de fichier : <code>mon_video.mp4</code></p>
+                    </article>
+                    <article class="media-card">
+                        <div class="media-card__preview media-card__preview--audio">
+                            <audio controls class="media-card__player">
+                                <source src="./son/16---until-the-end-of-time-unreleased-mix.mp3" type="audio/mpeg">
+                                Votre navigateur ne supporte pas l'audio HTML5.
+                            </audio>
+                        </div>
+                        <h3>Fichiers audio</h3>
+                        <p>Le fichier existant est <code>./son/16---until-the-end-of-time-unreleased-mix.mp3</code>.</p>
+                        <p class="media-card__hint">Si l'audio ne joue pas, indique si Edge affiche une erreur ou si le fichier est introuvable.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section section--references">
+                <div class="section__header">
+                    <p class="section__eyebrow">Liens référents</p>
+                    <h2>Sources et sites de référence</h2>
+                </div>
+                <ul class="reference-list" id="reference-list">
+                    <li><a href="https://www.anandtech.com" target="_blank" rel="noreferrer noopener">AnandTech</a></li>
+                    <li><a href="https://www.techpowerup.com" target="_blank" rel="noreferrer noopener">TechPowerUp</a></li>
+                    <li><a href="https://www.theverge.com" target="_blank" rel="noreferrer noopener">The Verge</a></li>
+                    <li><a href="https://www.videocardz.com" target="_blank" rel="noreferrer noopener">Videocardz</a></li>
+                    <li><a href="https://www.cowcotland.com" target="_blank" rel="noreferrer noopener">Cowcotland</a></li>
+                    <li><a href="https://www.hardwareand.com" target="_blank" rel="noreferrer noopener">Hardwareand</a></li>
+                    <li><a href="https://www.phoronix.com" target="_blank" rel="noreferrer noopener">Phoronix</a></li>
+                </ul>
+            </section>
+
+            <section class="section section--watchlist">
+                <div class="watchlist-card">
+                    <h2>🔭 À surveiller</h2>
+                    <p>La semaine prochaine, plusieurs acteurs dévoileront leurs roadmaps ASIC, ce qui pourrait redessiner les priorités d'investissement en semi-conducteurs.</p>
+                    <p class="watchlist-card__note">Restez prêt pour un événement industriel majeur et des annonces d'architecture haut rendement.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div>
+                <p>&copy; 2026 TechWatch Pro | Analyse technologique impartiale.</p>
+                <p class="footer__disclaimer">*Toutes les sources sont vérifiées. Les rumeurs sont explicitement signalées.</p>
+                <p class="footer__counter">Visites locales : <span id="visit-count">0</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        const toggle = document.querySelector('.theme-toggle');
+        const root = document.documentElement;
+        toggle?.addEventListener('click', () => {
+            if (root.getAttribute('data-theme') === 'light') {
+                root.removeAttribute('data-theme');
+                toggle.textContent = 'Mode clair';
+            } else {
+                root.setAttribute('data-theme', 'light');
+                toggle.textContent = 'Mode sombre';
+            }
+        });
+    </script>
+</body>
+</html>
